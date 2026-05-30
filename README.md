@@ -83,6 +83,7 @@ This folder is dedicated to the notebooks focused on the digital pathology (path
 Demonstrations/examples of analyses of images from IDC.
 * [MedSAM on IDC](https://github.com/ImagingDataCommons/IDC-Tutorials/blob/master/notebooks/analysis/MedSAM_with_IDC.ipynb): learn how to experiment with MedSAM on the images available from IDC.
 * [MHub.ai with IDC data](https://github.com/ImagingDataCommons/IDC-Tutorials/blob/master/notebooks/analysis/mhubai_tutorial.ipynb): [MHub.ai](https://mhub.ai) is a platform for Deep Learning models in medical imaging, which are interoperable with IDC and can be applied directly to the IDC DICOM images. Learn how to get started from this notebook!
+* [TotalSpineSeg vs TotalSegmentator](https://github.com/ImagingDataCommons/IDC-Tutorials/blob/master/notebooks/analysis/totalspineseg_vs_totalsegmentator.ipynb): compare spine segmentations from [TotalSpineSeg](https://github.com/neuropoly/totalspineseg) with pre-computed TotalSegmentator results from IDC, including DICOM SEG conversion of the results.
 
 ## [`idc_api`](https://github.com/ImagingDataCommons/IDC-Tutorials/tree/master/notebooks/idc_api)
 
