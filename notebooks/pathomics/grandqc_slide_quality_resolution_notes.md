@@ -129,8 +129,8 @@ Key points:
   ```
 
   If `openslide.mpp-x` is missing/`None`, `float(...)` raises. With the
-  failure-guard patch added in the notebook, this is caught and reported per
-  slide rather than silently mis-scaling.
+  fail-loud error handling in the `idc-dicom-fixes` fork branch, this is caught
+  and reported per slide (with a non-zero exit) rather than silently mis-scaling.
 - `openslide.mpp-x` is the **single point of failure** for scaling any new slide:
   if it is wrong or absent, `p_s` is sized wrong and the model sees the slide at
   the wrong scale.
